@@ -1,0 +1,18 @@
+.header {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 180px 0 40px;
+    margin-bottom: 80px;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.title {
+    font-size: 32px;
+}
