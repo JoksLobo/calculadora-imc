@@ -6,7 +6,7 @@ const Perfil = () => {
     return (
         <header className={styles.header}>
             <div>
-                <img className={styles.avatar} src={minhaImagem} alt="" />
+                <img className={styles.avatar} src={minhaImagem} alt="foto gerada por i.a de uma médica" />
                 <h1 className={styles.title}>Calculadora IMC</h1>
             </div>
         </header>

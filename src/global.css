@@ -10,3 +10,9 @@
     width: 100%;
     margin: 0 auto;
 }
+
+:root {
+    --corPrincipal:#778ca3;
+    --corTexto:#000;
+    --corDoBotao:#20bf6b;
+}
