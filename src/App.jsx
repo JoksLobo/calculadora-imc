@@ -1,14 +1,20 @@
 import React from "react"
 import Perfil from "./components/Perfil/Perfil"
 import Formulario from "./components/Formulario"
+import Tabela from "./components/Tabela"
+
 
 function App() {
   return(
-    <div>
+    <>
+    <div className="container">
     <Perfil/>,
-    <Formulario/>
-    
+    <Formulario/>,
+    <Tabela/>
+
     </div>
+    
+    </>
   )
 
 }

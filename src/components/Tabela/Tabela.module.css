@@ -1,0 +1,34 @@
+.tabela {
+    display: flex;
+    gap: 64px;
+}
+
+.list {
+    margin-left: 32px;
+
+}
+
+.listItem {
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--corTexto);
+}
+
+.listItem1 {
+    background-color:var(--corPrincipal);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
