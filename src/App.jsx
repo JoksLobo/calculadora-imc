@@ -8,8 +8,8 @@ function App() {
   return(
     <>
     <div className="container">
-    <Perfil/>,
-    <Formulario/>,
+    <Perfil/>
+    <Formulario/>
     <Tabela/>
 
     </div>

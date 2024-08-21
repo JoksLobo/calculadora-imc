@@ -12,20 +12,20 @@ const Formulario = () => {
             const imcCalculado = parseFloat(peso) / (alturaMetros * alturaMetros);
             setImc(imcCalculado.toFixed(2));
         }
-
+    };
         return (
-            <>
+            <div>
                 <p className={styles.text}>Olá, vamos calcular o seu IMC, preencha os campos abaixo:</p>
                 <form>
                     <input className={styles.forms} type="number" value={peso} onChange={(e) => setPeso(e.target.value)} placeholder="Informe seu peso" />
                     <input className={styles.forms} type="number" value={altura} onChange={(e) => setAltura(e.target.value)} placeholder="Informe sua altura" />
                     <button onClick={calcularImc} className={styles.button} type="button">Calcular IMC</button>
                 </form>
-                {imc && <p>Seu IMC é {imc}</p>}
-            </>
+                {imc && <p className={styles.span}>Seu IMC é {imc}</p>}
+            </div>
         )
 
     };
-}
+
 
     export default Formulario;
