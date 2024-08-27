@@ -7,12 +7,12 @@ import Tabela from "./components/Tabela"
 function App() {
   return(
     <>
-    <div className="container">
+    <>
     <Perfil/>
     <Formulario/>
     <Tabela/>
 
-    </div>
+    </>
     
     </>
   )
